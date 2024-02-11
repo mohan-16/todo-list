@@ -1,0 +1,139 @@
+  main{
+  
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+ 
+} */
+
+
+.butn:hover{
+    transform: scale(1.1);
+    color: darkgreen;
+    background-color: beige;
+    border: 2px solid darkgreen;
+}
+.Content{
+  font-size: 30px;
+ font-weight: 500;
+    
+}
+.Content li {
+    width: 319px;
+    overflow:auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 10px;
+    color: rgb(36, 29, 98);
+    background-color: rgb(249, 218, 252);
+ 
+    
+   
+    
+}
+.Content{
+    padding: 0px;
+}
+.checkeds{
+    padding: 10px;
+    font-size: larger;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start ;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin: 0.25rem 0;
+    background-color: #ededed;
+    border-radius: 8px;
+    margin: 20px;
+ 
+}
+.item :first-child{
+    margin: 0px;
+}
+.item input[ type="checkbox"]{
+    align-items: center;
+    width: 2.5rem;
+    width: 40px;
+    min-width: 40px;
+    height: 2.5rem;
+    height: 40px;
+    min-height: 40px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    margin: 3px;
+   
+    
+  
+  
+}
+.item > label{
+    padding: 10px;
+    font-size:25px;
+    letter-spacing: 1.5px;
+    flex-grow:1;
+}
+.item svg{
+    width: 48px;
+    min-width: 48px;
+    height: 2.5rem;
+    height: 48px;
+    color: rgb(187, 48, 139);
+    cursor: pointer;
+}
+.item svg:focus ,
+.item svg:hover{
+    color: rgb(60, 19, 100);
+    outline: none;
+}
+
+
+.Additems{
+   position: relative;
+   top: 60px;
+   text-align: center;
+   margin-left: 0px;
+
+
+  
+  }
+  .Additems button {
+    margin: 0px 8px;
+    font-size: 20px;
+    width: 40px;
+    height:44px;
+    padding: 0px !important;
+    border-radius: 8px;
+    color: rgb(187, 48, 139);
+    background-color: rgb(250, 234, 244);
+   
+  }
+  .Additems input{
+    font-size: 14px;
+    font-weight: 700;
+    width: 280px;
+    height: 48px;
+    min-height: 48px;
+    text-align: center;
+     border-radius: 8px;
+     background-color: rgb(249, 218, 252);
+     outline: none;
+  }
+
+
+  .Additems input[type = 'text']{
+    flex-grow: 1;
+    max-width: calc(100% -50px);
+  }
+  .Additems ::placeholder {
+    color: rgb(59, 60, 101);
+  }
